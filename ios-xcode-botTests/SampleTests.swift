@@ -19,6 +19,12 @@ class SampleTests: XCTestCase {
         }
         
         do {
+            var result: Sample? = Sample()
+            result = nil
+            XCTAssertNil(result)
+        }
+        
+        do {
             let result = Sample().method(arg: 3)
             XCTAssertEqual(result, 1)
         }
