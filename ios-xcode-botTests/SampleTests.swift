@@ -14,6 +14,11 @@ class SampleTests: XCTestCase {
     func testMethod() {
         
         do {
+            let result = Sample()
+            XCTAssertNotNil(result)
+        }
+        
+        do {
             let result = Sample().method(arg: 3)
             XCTAssertEqual(result, 1)
         }
