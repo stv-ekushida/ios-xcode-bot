@@ -13,7 +13,13 @@ class SampleTests: XCTestCase {
 
     func testMethod() {
         
-        let result = Sample().method(arg: 3)
-        XCTAssertEqual(result, 1)
+        do {
+            let result = Sample().method(arg: 3)
+            XCTAssertEqual(result, 1)
+        }
+        do {
+            let result = Sample().method(arg: 2)
+            XCTAssertEqual(result, 1)
+        }
     }
 }
