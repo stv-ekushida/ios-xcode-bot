@@ -13,6 +13,8 @@
 		C590FB351FDD29D800A0BCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C590FB341FDD29D800A0BCF4 /* Assets.xcassets */; };
 		C590FB381FDD29D800A0BCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C590FB361FDD29D800A0BCF4 /* LaunchScreen.storyboard */; };
 		C590FB431FDD29D800A0BCF4 /* ios_xcode_botTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C590FB421FDD29D800A0BCF4 /* ios_xcode_botTests.swift */; };
+		C590FB4E1FDD2B7900A0BCF4 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C590FB4D1FDD2B7900A0BCF4 /* Sample.swift */; };
+		C590FB501FDD2DF100A0BCF4 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C590FB4F1FDD2DF100A0BCF4 /* SampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C590FB3E1FDD29D800A0BCF4 /* ios-xcode-botTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-xcode-botTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590FB421FDD29D800A0BCF4 /* ios_xcode_botTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_xcode_botTests.swift; sourceTree = "<group>"; };
 		C590FB441FDD29D800A0BCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C590FB4D1FDD2B7900A0BCF4 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		C590FB4F1FDD2DF100A0BCF4 /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				C590FB341FDD29D800A0BCF4 /* Assets.xcassets */,
 				C590FB361FDD29D800A0BCF4 /* LaunchScreen.storyboard */,
 				C590FB391FDD29D800A0BCF4 /* Info.plist */,
+				C590FB4D1FDD2B7900A0BCF4 /* Sample.swift */,
 			);
 			path = "ios-xcode-bot";
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				C590FB421FDD29D800A0BCF4 /* ios_xcode_botTests.swift */,
 				C590FB441FDD29D800A0BCF4 /* Info.plist */,
+				C590FB4F1FDD2DF100A0BCF4 /* SampleTests.swift */,
 			);
 			path = "ios-xcode-botTests";
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C590FB301FDD29D800A0BCF4 /* ViewController.swift in Sources */,
+				C590FB4E1FDD2B7900A0BCF4 /* Sample.swift in Sources */,
 				C590FB2E1FDD29D800A0BCF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C590FB431FDD29D800A0BCF4 /* ios_xcode_botTests.swift in Sources */,
+				C590FB501FDD2DF100A0BCF4 /* SampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
